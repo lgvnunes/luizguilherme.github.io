@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="author" content="Iury Gomes de Oliveira" />
+    <meta name="author" content="Luiz Guilherme Ventura Nunes" />
     <meta name="description" content="Portifólio de trabalhos realizados e formação de Luiz Guilherme Ventura Nunes" />
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
@@ -164,7 +164,7 @@
                     </div>
 
                     <!-- Footer -->
-                    <footer class="footer">© Iury Gomes de Oliveira</footer>
+                    <footer class="footer">© Luiz Guilherme Ventura Nunes</footer>
                 </div>
             </div>
         </div>
