@@ -33,56 +33,7 @@
     <main class="main">
         <div class="container gutter-top">
             <!-- Header -->
-            <header class="header box">
-                <div class="header__left">
-                    <div class="header__photo">
-                        <img class="header__photo-img" src="assets/img/profile.jpg" alt="Luiz Guilherme Ventura Nunes">
-                    </div>
-                    <div class="header__base-info">
-                        <h4 class="title titl--h4">Luiz Guilherme Ventura Nunes</h4>
-                        <div class="status">Desenvolvedor WEB</div>
-                        <ul class="header__social">
-                            <li>
-                                <a href="https://www.linkedin.com/in/luiz-guilherme-a366b224/">
-                                    <i class="font-icon icon-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a _blank href="https://github.com/lgvnunes">
-                                    <i class="font-icon icon-github"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/lugui_nunes">
-                                    <i class="font-icon icon-twitter"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header__right">
-                    <ul class="header__contact">
-                        <li>
-                            <span class="overhead">
-                                Email
-                            </span>
-                            email.comercial@contato.com.br
-                        </li>
-                        <li>
-                            <span class="overhead">Telefone</span><a
-                                href="https://api.whatsapp.com/send?phone=55xxxxxxxxxxx">+55 (xx) xxxxx-xxxx </a>
-                        </li>
-                    </ul>
-                    <ul class="header__contact">
-                        <li>
-                            <span class="overhead">
-                                Rua onde Eu Moro, S/N
-                            </span>
-                            Rua Onde Eu Trabalho, S/N
-                        </li>
-                    </ul>
-                </div>
-            </header>
+            <header> <?php include "pageheader.html"  ?> </header>            
 
             <div class="row sticky-parent">
                 <!-- Sidebar nav -->
@@ -90,19 +41,19 @@
                     <div class="sidebar box sticky-column">
                         <ul class="nav">
                             <li class="nav__item">
-                                <a class="active" href="index.html">
+                                <a class="active" href="index.php">
                                     <i class="icon-user"></i>
                                     Sobre Mim
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="resume.html">
+                                <a href="resume.php">
                                     <i class="icon-file-text"></i>
                                     Currículo
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="works.html">
+                                <a href="works.php">
                                     <i class="icon-codesandbox"></i>
                                     Portifólio
                                 </a>
@@ -167,9 +118,7 @@
                             </div>
 
                             <!-- Footer -->
-                            <footer class="footer">
-                                © Luiz Guilherme Ventura Nunes
-                            </footer>
+                            <footer class="footer"> <?php include "pagefooter.html" ?> </footer>
                         </div>
                     </div>
                 </div>
